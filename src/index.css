@@ -1,0 +1,27 @@
+html {
+  color-scheme: light;
+}
+
+body[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#root {
+  min-height: 100vh;
+}
